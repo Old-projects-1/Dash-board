@@ -1,0 +1,177 @@
+/* Reset Style */
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+
+}
+
+body {
+  background-color: #001;
+  display: flex;
+}
+
+.profile {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.img-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid white;
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+.img-box img {
+  width: 100%;
+}
+
+.profile h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+
+}
+
+
+.menu {
+  width: 85px;
+  background-color: #123;
+  height: 100vh;
+  position: relative;
+  transition: .6s;
+  overflow: hidden;
+  margin-right: 9px;
+}
+
+.menu:hover {
+  width: 260px;
+  transition: .6s;
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 35px;
+  font-size: 30px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+li a:hover {
+  background-color: #1c1c1c;
+  cursor: pointer;
+}
+
+.logout {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/*المحتوى  */
+.content {
+  width: 100%;
+}
+
+.title-info {
+  background-color: #0400ff;
+  justify-content: space-between;
+  display: flex;
+  padding: 6px;
+  font-size: 35px;
+  border: 2px soid #0007d1;
+  ;
+  border-radius: 15px;
+  margin: 10px 15px;
+  transition: .5s;
+  align-items: center;
+
+}
+
+.title-info:hover,
+.data-info .box:hover,
+th:hover {
+  background-color: #04ff00;
+  transition: .5s;
+}
+
+/*  */
+.data-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.data-info .box {
+  background-color: #123;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  border-radius: 15px;
+  flex-grow: 1;
+  margin: 10px;
+
+
+
+
+}
+
+.data-info .box i {
+  font-size: 50px;
+}
+
+.data-info .box p {
+  font-size: 30px;
+}
+
+.data-info .box span {
+  font-size: 30px;
+}
+
+.data-info .box .data {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  border-spacing: 10px;
+}
+
+td,
+th {
+  background-color: #123;
+  height: 40px;
+  padding: 10px;
+  border-radius: 15px;
+
+}
+
+.price {
+  background-color: gold;
+  color: white;
+  font-size: 30px;
+
+}
+
+.count {
+  font-size: 30px;
+  background-color: red;
+  color: white;
+}
